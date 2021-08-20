@@ -1,0 +1,45 @@
+body
+	{
+		background-image:url(images/admin.jpg)no-repeat;
+		font-family:Calisto MT, cursive;
+	}
+.table1
+	{
+		width:350px;
+		margin:130px auto;
+		padding:15px 40px;
+		border:15px solid black;
+		background:#bab9b9;
+		
+		
+		-moz-box-shadow: 0 0 20px #5d5d5d;
+		-webkit-box-shadow: 0 0 20px #5d5d5d;
+		-o-box-shadow: 0 0 20px #5d5d5d;
+		box-shadow: 0 0 20px #5d5d5d;
+		
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+
+		-moz-border-radius: 5px solid #8e8988;
+		-webkit-border-radius: 5px solid #8e8988;
+		-o-border: 5px solid #8e8988;
+		border: 2px solid #8e8988;
+	/*	
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;
+		border-radius:10px;
+		-webkit-box-shadow: 0 0 2px #aaa;
+		-moz-box-shadow: 0 0 2px #aaa;
+		box-shadow: 0 0 2px #aaa;
+	*/
+	}
+	
+
+.text
+	{
+	 font-size:20px;
+	 text-align:center;
+	 font-weight:bold;
+	 font-family:Calisto MT, cursive;
+	}

@@ -1,0 +1,89 @@
+body{  
+  background-image: url(../admin/images/logo/gedung.jpg); 
+
+}  
+  
+form {  
+  width: 350px;  
+  padding: 20px;  
+  margin:150px auto;  
+  border: 2px solid #FFFFFF;  
+ 
+    
+  /*** Rounded Corners ***/  
+  border-radius:20px;  
+  -moz-border-radius: 20px;  
+  -webkit-border-radius: 20px;  
+    
+  /*** Shadow behind the box ***/  
+  -moz-box-shadow:0px -5px 300px #FFFFFF;  
+  -webkit-box-shadow:0px -5px 300px #FFFFFF;  
+    
+  /*** Background Gradient - 2 declarations one for Firefox and one for Webkit ***/  
+  background:-moz-linear-gradient(19% 75% 90deg,#c1eafe, #0444fb);  
+  background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#0493d8), to(#030615));  
+}
+
+input {  
+   
+  padding: 6px;  
+  margin-bottom: 10px;  
+  border-top: 1px solid #030615;  
+  border-left: 0px;  
+  border-right: 0px;  
+  border-bottom: 0px;  
+  background: #ffffff;   
+  border-radius:5px;  
+  -moz-border-radius: 5px;  
+  -webkit-border-radius: 5px;  
+    
+  /*** Transition Selectors - What properties to animate and how long ***/  
+  -webkit-transition-property: -webkit-box-shadow, background;  
+  -webkit-transition-duration: 0.5s;  
+    
+  /*** Adding a small shadow ***/  
+  -moz-box-shadow: 0px 0px 2px #000;  
+  -webkit-box-shadow: 0px 0px 2px #000;  
+}  
+  
+input:hover {  
+  -webkit-box-shadow: 0px 0px 4px #000;  
+  background: #d9e1e8;  
+}  
+
+input.submit {  
+  width: 100px;  
+  color: #fff;  
+  text-transform: uppercase;  
+  text-shadow: #000 1px 1px;  
+  border-top: 1px solid #ad64e0;  
+  margin-top: 10px;  
+  
+  /*** Adding CSS3 Gradients ***/  
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#030615), to(#3485fe));  
+  background: -moz-linear-gradient(19% 75% 90deg,#030615, #3485fe);  
+}  
+  
+input.submit:hover {  
+  -webkit-box-shadow: 0px 0px 2px #000;  
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#317ef2), to(#1f4e9a));  
+  background:  -moz-linear-gradient(19% 75% 90deg,#1f4e9a, #317ef2);  
+}   
+  
+input.submit:active {  
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#781bb9), to(#963AD6));  
+  background:  -moz-linear-gradient(19% 75% 90deg,#963AD6, #781bb9);  
+}  
+  
+label {  
+  font-size: 12px;  
+  font-family: arial, sans-serif;  
+  list-style-type: none;  
+  color: #fff;  
+  text-shadow: #000 1px 1px;  
+  margin-bottom: 5px;  
+  font-weight: bold;  
+  letter-spacing: 1px;  
+  text-transform: uppercase;  
+  display: block;  
+}  

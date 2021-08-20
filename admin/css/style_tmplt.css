@@ -1,0 +1,32 @@
+body
+	{
+		background:#3e83c8 url(images/bgbatik.jpg) repeat;
+		font-family: Verdana;
+		margin: 8px;
+		padding: 0;
+	}
+.menu
+	{
+	background-color:yellow;
+	height:45px;
+	}
+.header
+	{
+		/**background-image:url(images/askeslg.jpg)no-repeat;*/
+		background-color:#7FFFD4;
+		width:auto;
+		width:900;
+	}
+	
+.isi
+	{
+	background-color:#7FFFD4;
+	height:auto;
+	width:900;
+	}
+
+.footer
+	{
+	background-color:;
+	height:40px;
+	}

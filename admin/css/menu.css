@@ -1,0 +1,58 @@
+.dropmenu {
+    height: 35px;
+	width:100%; /**lebar background menu */
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+.dropmenu li {
+    border-right: solid 2px red;
+    float: left;
+    height: 35px;
+}
+.dropmenu li a {
+    color: blue;
+    display: block;
+    font: 16px Cambria, verdana, sans-serif; /** ukuran besar tulisan */
+    font-weight: bold;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.dropmenu li:hover { background: #778899; position: relative; }
+/**.dropmenu li:hover a { text-decoration: underline; }*/
+.dropmenu li:hover ul {
+    background-color: #3f4a54;
+    border: 1px solid grey;
+    left: 0px;
+    padding: 3px;
+    top: 30px;
+    width: 220px;
+}
+.dropmenu li:hover ul li { border: none; height: 26px; }
+.dropmenu li:hover ul li a {
+    background-color: #3e9165;
+    border: 1px solid transparent;
+    color: #fff;
+    display: block;
+    font-size: 16px; /**ukuran font pd sub menu */
+    height: 22px;
+    line-height: 22px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 3px;
+    width: 215px;
+    padding: 4px;
+}
+.dropmenu li:hover ul li a:hover {
+    background: silver;
+    border: solid 1px #444;
+    color: red;
+    height: 22px;
+    padding: 5px;
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
